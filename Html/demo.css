@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    text-align: center;
+    border: dashed 3px blue;
+}
+.firstdiv{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(127,255,112,0.5);
+    position: fixed;
+}
+.firstdiv:hover{
+    animation-name: anim;
+    animation-duration: 5s;
+}
+
+@keyframes anim {
+    0%{
+        background-color: rgba(211,211,211,0.5);
+    }
+    50%{
+        background-color: rgba(228, 120, 120, 0.5);
+    }
+    75%{
+        background-color: rgba(91, 64, 226, 0.5);
+    }
+    100%{
+        background-color: none;
+    }
+}
